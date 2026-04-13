@@ -83,4 +83,8 @@ public class BoardState {
     // Getters for max use Print
     public int[][] getGrid() { return grid; }
     public int getN() { return n; }
+    // Getter BoardState.java Main UI
+    public int getBrokenRow() { return brokenRow; }
+    public int getBrokenCol() { return brokenCol; }
+
 }
