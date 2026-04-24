@@ -55,7 +55,7 @@ public class Main {
                 System.out.println();
                 printBoard(tempInitialState, bits);
 
-                System.out.print("Set broken light (Y/N) ? ");
+                System.out.print("Set broken light (Y/N)? [Type 'Y' for Yes, any other key for No] :");
                 String brokenStr = scanner.nextLine().trim().toLowerCase();
                 int brokenRow = -1;
                 int brokenCol = -1;
@@ -110,7 +110,7 @@ public class Main {
                     }
                 }
 
-                System.out.print("Continue playing? (Y/N) : ");
+                System.out.print("Continue playing? (Y/N) [Type 'Y' for Yes, any other key to Exit] :");
                 if (!scanner.nextLine().trim().equalsIgnoreCase("y")) {
                     System.out.println("Exiting game...");
                     break;
